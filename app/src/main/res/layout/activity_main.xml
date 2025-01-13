@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+app:srcCompat="@drawable/_61"
+android:scaleType="centerCrop" />
+
+<EditText
+android:id="@+id/usernameEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFFFFF"
+android:hint="Kullanıcı Adı"
+android:textColorHint="#E13D3D"
+android:padding="18dp"
+android:textColor="#E13D3D"
+android:textSize="20sp" />
+
+<EditText
+android:id="@+id/passwordEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFFFFF"
+android:hint="Şifre"
+android:textColorHint="#E13D3D"
+android:inputType="textPassword"
+android:padding="18dp"
+android:textColor="#E13D3D"
+android:textSize="20sp" />
+
+<Button
+android:id="@+id/loginButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:backgroundTint="#E13D3D"
+android:padding="18dp"
+android:text="Giriş Yap"
+android:textColor="#FFFFFF"
+android:textSize="20sp"
+android:layout_marginTop="16dp" />
+
+</LinearLayout>
