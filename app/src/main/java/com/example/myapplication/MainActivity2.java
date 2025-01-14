@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        // Buton ve EditText'leri tanımlama
+
         showAccountListButton = findViewById(R.id.button_account_list);
         addAccountButton = findViewById(R.id.button_add);
         deleteAccountButton = findViewById(R.id.button_account_delete);

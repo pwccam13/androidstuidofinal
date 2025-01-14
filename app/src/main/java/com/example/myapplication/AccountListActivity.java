@@ -32,7 +32,7 @@ public class AccountListActivity extends AppCompatActivity {
         closeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();  // Bu aktiviteyi kapatır
+                finish();
             }
         });
 
@@ -40,7 +40,7 @@ public class AccountListActivity extends AppCompatActivity {
         ArrayList<String> accountsList = databaseHelper.getAllAccounts();
 
         if (accountsList.isEmpty()) {
-            Toast.makeText(AccountListActivity.this, "No accounts found", Toast.LENGTH_SHORT).show();
+            Toast.makeText(AccountListActivity.this, "Hesap Bulunamadı", Toast.LENGTH_SHORT).show();
         } else {
 
             AccountAdapter adapter = new AccountAdapter(this, accountsList);
